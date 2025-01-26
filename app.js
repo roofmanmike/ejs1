@@ -6,7 +6,8 @@ const ejs = require("ejs");
 var _ = require('lodash');
 
 const homeStartingContent = "The Roofers that ROOFERS call!!!";
-const aboutContent = "'about' content";
+const aboutContent = "ABOUT- to smash that roof";
+const aboutContent1 = "Serving the Detroit / Oakland area since 1992"
 const posts = [];
 const app = express();
 
@@ -21,7 +22,7 @@ app.get("/", function(req, res){
   });
   app.get("/about", function(req, res){
     let item = aboutContent;
-    res.render("about", {aboutContent: aboutContent});
+    res.render("about", {aboutContent: aboutContent, secondString: aboutContent1});
     });
   app.get("/contact", function(req, res){
     let item = contactContent;
