@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 var _ = require('lodash');
 
-const homeStartingContent = "'Home' starting content";
+const homeStartingContent = "The Roofers that ROOFERS call!!!";
 const aboutContent = "'about' content";
 const posts = [];
 const app = express();
