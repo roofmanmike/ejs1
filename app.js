@@ -8,6 +8,7 @@ var _ = require('lodash');
 const homeStartingContent = "The Roofers that ROOFERS call!!!";
 const aboutContent = "ABOUT- to smash that roof";
 const aboutContent1 = "Serving the Detroit / Oakland area since 1992"
+const contactContent = "(248)678-ROOF";
 const posts = [];
 const app = express();
 
